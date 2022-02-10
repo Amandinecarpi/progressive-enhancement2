@@ -5,9 +5,10 @@
 }
 .container div a span {
     color: white;
-    background-color: orange;
+    background-color: #ff7235;
     border-radius: 50%;
     padding: 3px 10px;
+    
 
 }
 .container div ul li {
@@ -15,10 +16,124 @@
     list-style-type: none ;
     margin: 0 10px;    
 }
-.container div button {
-border: 1px orange solid;
+nav .container div button {
+border: 1px solid #ff7235;
 background-color: white;
 padding: 10px 20px;
 border-radius: 9px;
-color: orange;
+color:#ff7235;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: 'Roboto', sans-serif
+}
+h1 {
+font-size: 80px;
+width: 70%;
+margin-left: 25%;
+}
+.p1 {
+margin-left: 200px; 
+font-size: 22px;
+color: #dddddd;
+margin-top: -20px;
+
+}
+.b1 {
+margin-left: 200px;
+color: white;
+background-color: #ff7235;
+border: 1px solid;
+border-radius: 5px;
+padding: 15px 30px;
+
+}
+
+.img1 {
+margin-right: 140px;
+margin-top: 100px;
+}
+.p2 {
+display: inline-flex;
+font-size: 27px;
+color:#dddddd ;
+margin-left: 20px;
+}
+.container2 {
+background-color: #ff7235; 
+margin-top: 150px;
+position: relative;
+z-index: 1;
+overflow: hidden;
+
+}
+.img2 {
+margin-left: 180px;
+margin-top: 100px;
+z-index: 1;
+margin-bottom: -5px;
+}
+.rond1 {
+position: absolute;
+top: -50%;
+left: -60%;
+max-width:2000px ;
+z-index: -1;
+}
+.rond2 {
+    position: absolute;
+    top: -30%;
+    left: 45%;
+    width: 1200px;
+    z-index: -1;
+    color: linear-gradient(to top, black, #ff8c5a);
+    
+    }
+.container3 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 80%;
+left: 20px;
+margin: auto;
+
+}
+.container3 img {
+width: 10%;
+height: auto;
+filter: grayscale(1);
+margin-top: 50px;
+opacity: 25%;
+
+}
+.container4 {
+display: flex;
+justify-content: space-around;
+font-family: 'Roboto', sans-serif;
+margin-top: 200px;
+}
+.alo {
+color: #dddddd;
+background-color: red;
+width: 80%;
+margin-left: 185px;
+}
+h2 {
+font-size: 100px;
+width: 80%;
+margin-left: 185px;
+margin-top: -10px;
+}
+.container4 div:first-of-type{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+background-color: aqua;
+width: 72%;
 }
